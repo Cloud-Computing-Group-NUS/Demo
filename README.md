@@ -14,6 +14,10 @@
 - Poster
   - [SWS3004_06.pdf](https://github.com/Cloud-Computing-Group-NUS/Demo/blob/main/SWS3004_06.pdf "SWS3004_06.pdf")
 
+## Team
+
+We are DATA @ Summer Workshop, NUS
+
 <a href="https://github.com/Cloud-Computing-Group-NUS/Demo/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Cloud-Computing-Group-NUS/Demo" />
 </a>
