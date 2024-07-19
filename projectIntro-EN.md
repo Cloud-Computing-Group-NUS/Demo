@@ -1,3 +1,7 @@
+# IntelliDoc
+
+> Intelligent Document Automation and Knowledge Enhancement System
+
 ## 1. System Overview
 
 This system is an AI-assisted document editor based on Kubernetes, integrating multiple components such as a frontend interface, backend processing, data preprocessing, message queue, data storage, knowledge base generation, and AI interaction. The system is designed with scalability, high availability, and efficient data processing in mind, aiming to provide a smooth and intelligent document editing experience. It leverages LLM to improve user development efficiency and fully collects and utilizes various data generated during user development to enhance the accuracy of the dedicated model and enrich its knowledge base.
@@ -24,11 +28,10 @@ graph TB
     H --> I
     I --> J
     E <--> J
-    
+  
 ```
 
 ## 3. Component Details
-
 
 ### 3.1 Frontend Pod
 
@@ -132,51 +135,51 @@ graph TB
 ## 4. Overall System Design Advantages
 
 1. **High Scalability**:
+
    - Each component is designed for independent scaling.
    - Automated horizontal scaling using Kubernetes.
    - Kafka and MongoDB support data-level scaling.
-
 2. **Robust Real-time Processing Capabilities**:
+
    - Frontend and backend WebSocket connections support real-time updates.
    - Kafka provides high-throughput real-time data stream processing.
    - Parallel design of Data Preprocessing Pods supports rapid data processing.
-
 3. **Flexible Data Processing Workflow**:
+
    - A complete data flow from frontend to AI interaction supports complex processing logic.
    - Easily add or modify processing steps to meet different business needs.
-
 4. **High Availability and Fault Tolerance**:
+
    - Key components are designed for multi-instance deployment.
    - Message queues and database persistence mechanisms prevent data loss.
    - Multi-level error handling and recovery mechanisms implemented.
-
 5. **Optimized Performance**:
+
    - Frontend preprocessing reduces backend load.
    - Caching mechanisms improve response speed.
    - Parallelized data preprocessing increases overall processing efficiency.
-
 6. **Security**:
+
    - Ingress layer implements unified access control and SSL termination.
    - Sensitive information (e.g., API keys) managed using Kubernetes Secrets.
    - Fine-grained access control and data isolation implemented.
-
 7. **Intelligence**:
+
    - Integrated advanced NLP technologies and knowledge graphs.
    - Seamless integration with OpenAI API provides powerful AI assistance.
    - Supports local language models as fallback options, enhancing system autonomy.
-
 8. **Cost Efficiency**:
+
    - Dynamic resource allocation ensures efficient resource utilization.
    - Intelligent API call management optimizes the use of external services.
    - Adjust the scale of each component based on actual needs to avoid resource waste.
-
 9. **Developer and Maintenance Friendly**:
+
    - Modular design facilitates team collaboration and independent development.
    - Containerization simplifies deployment and environment management.
    - Comprehensive monitoring and logging systems ease issue diagnosis and performance optimization.
-
 10. **User Experience Optimization**:
+
     - Real-time editing and preview provide a smooth operation experience.
     - AI assistance improves the efficiency and quality of document editing.
     - Responsive design ensures a good experience across various devices.
-
