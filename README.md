@@ -13,3 +13,7 @@
   - [slide.pdf](https://github.com/Cloud-Computing-Group-NUS/Demo/blob/main/slide.pdf "slide.pdf")
 - Poster
   - [SWS3004_06.pdf](https://github.com/Cloud-Computing-Group-NUS/Demo/blob/main/SWS3004_06.pdf "SWS3004_06.pdf")
+
+<a href="https://github.com/Cloud-Computing-Group-NUS/Demo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Cloud-Computing-Group-NUS/Demo" />
+</a>
