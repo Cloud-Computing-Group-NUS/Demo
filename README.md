@@ -16,7 +16,7 @@
 
 ## Team
 
-We are DATA @ Summer Workshop, NUS
+We are [DATA](https://github.com/Cloud-Computing-Group-NUS) @ Summer Workshop, NUS
 
 <a href="https://github.com/Cloud-Computing-Group-NUS/Demo/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Cloud-Computing-Group-NUS/Demo" />
